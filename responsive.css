@@ -1,0 +1,234 @@
+@media (max-width:1400px) {
+  .fixed-with {
+      width: 100%;
+      max-width: 100%;
+      margin: auto;      
+  }
+}
+@media (max-width:1200px) {
+  .header-left {
+    text-align: center;
+    width: 30%;
+    margin-left: 30px;
+  }
+  .header-right {    
+    width: 65%;    
+  }
+  .header-right ul {
+    text-align: center;
+  }
+  .services-item {  
+    width: 46%;    
+  }
+  .services-item:nth-child(2n+2){
+    margin-right: 0;
+    margin-left: 4%;
+  }
+  .about-image {
+    width: 43%;   
+    margin-left: 55px;   
+  }
+  .about-item-text {
+    width: 43%;
+    margin-right: 55px;
+  }
+}
+
+@media (max-width:1050px) {
+  .banner-caption h1 {   
+    font-size: 50px;   
+    /* margin-top: -100px; */
+  }
+  .banner-caption h6 {  
+    margin-top: 23px;
+    margin-bottom: 50px;
+  }
+
+  .about-item-text h4 {   
+    font-size: 18px;   
+    margin-bottom: 5px;   
+  }
+  .about-item-text p {   
+    line-height: 16px;   
+  }  
+}
+@media (max-width:992px) {
+  .banner-caption h1 {   
+    font-size: 45px;   
+  }
+  .banner-caption h6 {  
+    font-size: 14px;   
+  }
+  .service-text h2 {
+    font-size: 34px;   
+  }
+  .about-text h2 {
+    font-size: 34px;  
+  }
+  .about-item-text {
+    width: 40%;
+    margin-right: 60px;
+  }
+  .about-image {
+    width: 40%;  
+    margin-left: 60px;   
+  }
+  .about-item-text p {
+    line-height: 15px;   
+  }
+  .about-item-text h4 {   
+    margin-top: 0;
+  }
+  .contact-text h2 {
+    font-size: 34px;   
+  }
+  .contact-text p {
+    font-size: 12px;   
+  }  
+}
+
+@media (max-width:850px) {
+
+  .banner-caption h1 {   
+    font-size: 40px;   
+  }
+  .banner-caption h6 {  
+    font-size: 13px;   
+  }
+  .banner-caption a {  
+    padding: 8px 16px;   
+    font-size: 15px;
+  }
+  .about-image {
+    width: 40%;  
+    margin-top: 25px;
+  }
+
+  
+}
+@media (max-width:768px) {
+  .about-image:hover img {
+    transform: scale(1);
+  }
+  .about-image {
+    width: 100%;   
+    margin-top: 25px;  
+    margin: auto;
+  }
+  .about-image img {
+    width: auto;
+    height: auto;    
+  }
+  .about-item-text {
+    width: 100%;  
+    text-align: center;
+    margin: auto !important;
+    margin-top: 20px !important;
+  }
+  .about-item-text h4 {
+    font-size: 22px;  
+    margin-bottom: 22px;
+  }
+  .about-item-text p {
+    line-height: 20px;
+    width: 90%;
+    margin: auto;
+  }
+}
+
+@media (max-width:674px) {  
+  .header-left {
+    text-align: center;
+    width: 100%;
+    margin-left: 0px;
+  }
+  .header-left a {  
+    font-size: 15px;
+    line-height: 38px;
+    margin-top: 10px;
+  }
+  .header-right {
+    width: 100%;
+  }
+  .header-right ul li a {
+    padding: 0px 5px;
+  }  
+  .service-text h2 {
+    font-size: 30px;   
+  }
+  .banner {  
+    padding: 100px 0;    
+  }
+  .banner-caption h1 {   
+    font-size: 35px;    
+    margin-top: 20px;
+  }
+
+  .service-text p {
+    font-size: 12px;  
+    width: 75%;
+    margin: auto;
+  }
+  .about-text p {
+    font-size: 12px;   
+    width: 75%;
+    margin: auto;
+  }
+  .about-image img {
+    width: 90%;
+    height: auto;
+  }
+  .about-item-text h4 {
+    font-size: 20px;   
+    margin-bottom: 8px;
+    margin-top: 10px;
+  }
+  .contact-item p {   
+    font-size: 12px;
+    line-height: 18px;
+  }
+   
+}
+@media (max-width:378px) {
+  .header-left a {    
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .banner-caption h1 {  
+    font-size: 25px;    
+    margin-top: 10px;
+  }
+  .banner-caption h6 {    
+    font-size: 10px;    
+  }
+  .banner-caption a {    
+    padding: 6px 12px;   
+    font-size: 12px;
+  }
+  .services-item:nth-child(1n+1){   
+    margin-left: 0;
+  }
+  .services-item {   
+    width: 100%;   
+  }
+  .about-item-text p {   
+    text-align: justify;
+  }
+  .contact-text h2 {
+    font-size: 30px;   
+  }
+  .contact-text p {
+    font-size: 12px;    
+    width: 60%;
+    margin: auto;
+    line-height: 20px;
+    margin-bottom: -30px;
+  }
+  .contact-item span {    
+    font-size: 18px;   
+    margin-top: 10px;
+  }
+  .contact-item {   
+    width: 100%;    
+  }
+}
